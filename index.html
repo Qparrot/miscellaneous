@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>CSS GRIDS</title>
+		<style>
+			.wrapper{
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				grid-row-gap: 1em;
+				grid-auto-row: minmax(100px, auto);
+				justify-items: stretch;
+				align-items: end;
+			}
+			.wrapper > div{
+				background:#eee;
+				padding:1em;
+			}
+			.wrapper > div:nth-child(odd){
+				background:#ddd;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div style="grid-column:1/4; border:1px solid black;">
+				asdlhkaljjjjjlksadjskadjlaksljd
+			</div>
+			<div>
+				skdjalskdjaskldjalsdjaoiwjdlkdsajkhdklaasjiwllllllllllll
+			</div>
+			<div>
+				asdlhkaljjjjjlksadjskadjlaksljd
+			</div>
+			<div>
+				skdjalskdjaskldjalsdjaoiwjdlkdsajkhdklaasjiwllllllllllll
+			</div>
+		</div>
+
+	</body>
+</html>
