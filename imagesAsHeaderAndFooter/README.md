@@ -4,6 +4,6 @@
 
 Reproduce this image with css:
 
-![image](./headerAndFooterAsimage.png "example")
+![image](./ImagesAsHeaderAndFooter.png "example")
 
 
