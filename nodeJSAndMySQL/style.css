@@ -1,0 +1,170 @@
+/* UTILITIES */
+
+body
+{
+	margin: 0;
+	background: white;
+}
+.container
+{
+	margin: auto;
+	padding: 0;
+	margin: 0;
+}
+
+/* HEADER CSS */
+
+.headerSection
+{
+	height: 200px;
+	width: 100%;
+	background: url("header.png") no-repeat;
+	background-size: 100% 100%;
+	z-index: 0;
+}
+
+h1
+{
+	margin-top: 0;
+	padding-top: 20px;
+	text-align: center;
+}
+
+hr
+{
+	display: block;
+	color: white;
+	width: 95%;
+	margin: auto;	
+}
+
+/* COMMENTS CSS */
+
+.card
+{
+	display: flex;
+	flex: 1 0 0%;
+	flex-direction: column;
+	background: rgba(0, 0, 0, 0.8);
+	border-radius: 25px;
+	color: white;
+	padding: 0 0 0 5px;
+	margin: 5px auto 5px auto;
+	max-width: 400px;
+}
+
+h5
+{
+	font-size: 2rem;
+	padding: 5px 0 0 0;
+	margin: 0;
+}
+.card h6
+{
+	font-size: 0.6rem;
+	padding: 5px 0 0 0;
+	margin: 0;
+	font-weight: normal;
+}
+
+.card p
+{
+	font-size: 1rem;
+	padding: 5px 0 5px 5px;
+	margin: 0;
+}
+
+.formTeil
+{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+/* FORM CSS */ 
+
+form
+{
+	background: rgba(196,196, 196, 0.8);
+	border-radius: 5px;
+	display: table;
+	margin: auto;
+	z-index: 10;
+	padding: 5px;
+	justify-content: center:
+}
+
+form .description
+{
+	margin: 5px auto 0 2.5rem;
+}
+
+form input
+{
+	position: relative;
+	width: 40%;
+	background: #FFFFFF;
+	padding: 0 0 0 5px;
+	margin: 5px auto 0 2.5rem;
+	border: 0.3px solid #000000;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	
+}
+
+form textarea
+{
+	background: #FFFFFF;
+	border: 0.3px solid #000000;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	padding: 2px 2rem 2rem 5px;
+	margin: 5px auto 0 auto;
+}
+
+form button
+{
+	background: rgba(96, 165, 9, 0.85);
+	border: 0.3px solid #000000;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 25px;
+	margin: 5px auto 5px auto;
+
+}
+
+/* FOOTER CSS */
+
+#ending-section
+{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	z-index: -1;
+}
+
+#ending-section p
+{
+	width: 100%;
+	background: url('footer.png') no-repeat;
+	background-size: 100% 100%;
+	padding: 0;
+	position: relative;
+	margin: -2px 0 0 0;
+}
+
+#ending-section::before
+{
+	position: relative;
+	content: '';
+	height: 200px;
+	width: 100%;
+	background: url("header.png") no-repeat;
+	display: table;
+	background-size: 100% 100%;
+	transform: rotate(180deg);
+	z-index: -1;
+}

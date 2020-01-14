@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Comment Section</title>
+		<script src="functions.js"></script>
+		<link rel="stylesheet" href="style.css">
+		<meta charset="UTF-8">
+	</head>
+	<body onload="loadComments()">
+		<div>
+			<div class="container headerGlobal">
+				<div id="header" class="container headerSection">
+					<h1> COMMENT SECTION </h1>
+				</div>
+			</div>
+			<div class="container">
+				<div id="comments" class="card mb-2">
+					<h3> Previous Comments </h3>
+					<hr>
+					<div id="addComments">
+					</div>
+				</div>
+			</div>
+			<div class="container formSection">
+				<form>
+					<p class="description"> YOUR COMMENT:</p>
+					<input id="userName" class="formTeil" placeholder="Your name..." Required></input>
+					<textarea  id="commentBody" class="formTeil" placeholder="Your comment..." Required></textarea>
+
+					<button type="button" onclick="insertComment()">Submit</button>
+				</form>
+			</div>	<!-- End container form -->
+			<div id="ending-section" class="container footer">
+				<p>made with love by Quentin Parrot</p>
+			</div>
+		</div>
+	</body>
+</html>
