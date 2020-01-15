@@ -3,7 +3,7 @@
 ## Goal
 
 Add the backend server that show the previous comments and allows the addition of new comments:
-the project is available here: [showcase](www.quentinparrot.com/NodeJSAndMySQL).
+the project is available here: [showcase](https://www.quentinparrot.com/NodeJSAndMySQL).
 
 ![image](./headerAndFooterAsimage.png "example")
 
